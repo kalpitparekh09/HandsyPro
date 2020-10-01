@@ -1,0 +1,14 @@
+<html>
+<head>
+JSON Reciving Data
+</head>
+<body style="background-color:#D3D3D3">
+<h1>JSON</h1>
+<p id="n"></p>
+<script>
+Var obj='{"Name":"Yash","Age":21,"City":"Surat/Bardoli","Enrollment":170303108124}';
+var myJSON = JSON.parse(obj);
+document.getElementById("n").innerHTML = myJSON.Name + " ," + myJSON.Age + " ," + myJSON.City+ " ," + myJSON.Enrollment;
+</script>
+</body>
+</html>
